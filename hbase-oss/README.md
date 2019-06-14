@@ -153,8 +153,7 @@ been changing over different HBase releases. Current HBoss version is guaranteed
 to compile with HBase *1.4.10* and *2.1.4*. Default build HBase version chosen
 is *2.1.4*. To compile with HBase *1.4.10*, `hbase.profile` needs to be set to `1`.
 
-### Examples of different build profile usage/combinations, and related
-dependency versions picked:
+### Examples of different build profile usage/combinations, and related dependency versions picked:
 
     mvn verify                                      # Defaults to Hadoop 3, HBase 2
     mvn verify -Dhadoop.profile=3                   # Activate Hadoop 3, HBase 2 used as default
